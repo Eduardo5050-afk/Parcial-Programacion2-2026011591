@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        EstrategiaComision comisionEstandar = new ComisionEstandar();
-        Vendedor vendedor = new Vendedor("Eduardo", 1000.0, comisionEstandar);
+        EstrategiaComision comisionPersonalizada = new ComisionPersonalizada();
+        Vendedor vendedor = new Vendedor("Rafael", 1000.0, comisionPersonalizada);
         
         vendedor.mostrarDetalle();
     }
